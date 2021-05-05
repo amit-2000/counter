@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(231, 243, 243);
+    width:  100%;
+    margin: 0;
+    padding: 0;
+    font-family:  "Open Sans", sans-serif;;
+}
+.container{
+    width: 100%;
+    height:  100vh;
+    margin: auto;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    letter-spacing: 2px;
+    font-size:80px;
+    margin: 0;
+}
+#value{
+    font-size: 6rem;
+    padding: 30px;
+    font-weight: bold;
+}
+.btns {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    cursor: pointer;
+    background:transparent;
+    border:  1px solid black;
+    border-radius:  3px;
+    width:  auto;
+    padding: 6px 10px;
+    margin: 0.5rem;
+    letter-spacing: 1.5px;
+}
+
+.btns:hover{
+    background-color: black;
+    transition: all 0.5s ease-in-out;
+    color: white;
+}
